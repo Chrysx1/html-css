@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.849);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.426);
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.589);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(160, 159, 159);
+        }
+
+        nav{
+            background-color: rgb(76, 76, 76);
+            padding: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.589);
+            border-radius: 5px;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            margin-right: 5px;
+            border: 1px solid white;
+            padding: 2px;
+            border-radius: 6px;
+        }
+
+        nav > a:hover{
+            background-color: aliceblue;
+            color: black;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 19px auto ;
+            background-image: linear-gradient(to right, #853897 30%, #f8c600bb);
+            background-attachment: fixed;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cupiditate fugiat iste sunt ipsa expedita, suscipit rerum cum earum excepturi quas laudantium, incidunt minus similique rem modi distinctio perferendis quos!</p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy;Desenvolvido pelo Chrys
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

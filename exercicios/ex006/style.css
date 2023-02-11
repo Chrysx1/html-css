@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Sono:wght@200&display=swap');
+
+
+#live{
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background-image: url('imagem/noite.jpg');
+    color: white;
+    font-family: 'Sono', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn{
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 18px;
+}
+
+#btn:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}

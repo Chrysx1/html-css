@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+
+
+body{
+    font-family: 'Kenia', cursive;
+    background-image: url(assets/fundo3.jpg);
+    color: aliceblue;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#back{
+    background-color: transparent;
+    border: transparent;
+}
+
+#back:hover{
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+
+a{
+    color: aliceblue;
+}
+
+img{
+    border-radius: 5px;
+    border: solid 1px white;
+    box-shadow: 17px 5px 30px rgba(0, 0, 0, 0.433);
+}
+
+img:hover{
+    opacity: 50%;
+    border: 5px solid green;
+}
+
+p:hover{
+    color: aqua;
+}
+
+span:hover{
+    color: aqua;
+    font-size: 22px;
+}
+
+section{
+    background-color: rgb(0 0 0 / 40%);
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    border-radius: 20px;
+}
+
